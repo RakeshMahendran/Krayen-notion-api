@@ -1,6 +1,4 @@
-import {} from "@cloudflare/workers-types";
 import { Router, Method } from "tiny-request-router";
-
 import { pageRoute } from "./routes/page";
 import { tableRoute } from "./routes/table";
 import { userRoute } from "./routes/user";
